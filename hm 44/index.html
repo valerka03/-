@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Список с добавлением и удалением</title>
+		<style>
+			/* Стили для наглядности (можно менять) */
+			body {
+				font-family: Arial, sans-serif;
+				max-width: 500px;
+				margin: 20px auto;
+			}
+			li {
+				margin: 5px 0;
+				display: flex;
+				justify-content: space-between;
+			}
+			.delete-btn {
+				margin-left: 10px;
+				color: red;
+				cursor: pointer;
+			}
+		</style>
+		<script defer src="/script.js"></script>
+	</head>
+	<body>
+		<h2>Добавление элементов в список</h2>
+
+		<!-- Условия задания (раскомментировать для работы) -->
+		<!-- 
+    1. Пользователь вводит текст в поле и нажимает "Добавить" — элемент добавляется в список.
+    2. Каждый элемент списка должен иметь кнопку "Удалить", которая удаляет только этот элемент.
+    3. Кнопка "Очистить" удаляет ВСЕ элементы списка.
+  -->
+
+		<input type="text" id="itemInput" placeholder="Введите элемент" />
+		<button id="addBtn">Добавить</button>
+		<button id="clearBtn">Очистить список</button>
+		<ul id="itemList"></ul>
+
+		<!-- Скрипт писать здесь или в отдельном файле -->
+	</body>
+</html>
